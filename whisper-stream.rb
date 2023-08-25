@@ -3,7 +3,7 @@ class WhisperStream < Formula
   homepage "https://github.com/yohasebe/whisper-stream"
   url "https://github.com/yohasebe/whisper-stream/blob/fd83aaf319dd3dd0ab5aba6aeab9b563c22c8164/whisper-stream.sh"
   version "1.0.2"
-  sha256 "f3801bf1f9688c9230f9e7ebca5b1b3804edfc0d337092ad5d9697338c45de6c"
+  sha256 "2d793b7d3a052c37a43b74c0bc649af6a719e85b28dfebe1ac735f14b1690322"
   license "MIT"
 
   depends_on "jq"
