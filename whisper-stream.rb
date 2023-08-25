@@ -2,8 +2,8 @@ class WhisperStream < Formula
   desc "Bash script to transcribe spoken audio into text using Whisper API"
   homepage "https://github.com/yohasebe/whisper-stream"
   url "https://raw.githubusercontent.com/yohasebe/whisper-stream/main/whisper-stream.sh"
-  version "1.0.2"
-  sha256 "f3801bf1f9688c9230f9e7ebca5b1b3804edfc0d337092ad5d9697338c45de6c"
+  version "1.0.3"
+  sha256 "8833409913c3d2f04fea97cc0529fb4787615581959c3b44982f4f8a9f9e256b"
   license "MIT"
 
   depends_on "jq"
@@ -12,7 +12,7 @@ class WhisperStream < Formula
   uses_from_macos "curl"
 
   def install
-    bin.install "whisper-stream.sh" => "whisper-stream"
+    bin.install "whisper-stream"
   end
 
   test do
