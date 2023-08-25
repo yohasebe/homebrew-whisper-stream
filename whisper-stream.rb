@@ -12,7 +12,7 @@ class WhisperStream < Formula
   uses_from_macos "curl"
 
   def install
-    bin.install "whisper-stream"
+    bin.install "whisper-stream" => "whisper-stream"
   end
 
   test do
