@@ -1,9 +1,9 @@
 class WhisperStream < Formula
   desc "Bash script to transcribe spoken audio into text using Whisper API"
   homepage "https://github.com/yohasebe/whisper-stream"
-  url "https://github.com/yohasebe/whisper-stream/archive/3cdc9ce7979df979f863e1a2feae2bf4d780cc86.zip"
-  version "1.0.7"
-  sha256 "f1f96f3f81264a2aa56d762c1f14b81df38eb935dd4e7a0304851bf7b138c7df"
+  url "https://github.com/yohasebe/whisper-stream/archive/6a9ed87e3d628fdb9de654ef1c54ae4a16b78193.zip"
+  version "1.0.8"
+  sha256 "f43e3fb6f535bfb8ad8a22b9bda56b2bacd810152d07b843c5a04dff72b5a07b"
   license "MIT"
 
   depends_on "jq"
