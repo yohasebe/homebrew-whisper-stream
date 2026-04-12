@@ -1,9 +1,9 @@
 class WhisperStream < Formula
-  desc "Bash script to transcribe spoken audio into text using Whisper API"
+  desc "Bash script for real-time speech-to-text via Whisper API or local whisper.cpp"
   homepage "https://github.com/yohasebe/whisper-stream"
-  url "https://github.com/yohasebe/whisper-stream/archive/e2a41b242ab89fbd72c412baac230c2dbc92c369.zip"
-  version "1.1.0"
-  sha256 "5212bc80d04eae9717284687f8723aedb98736987df190189a53f61495f69265"
+  url "https://github.com/yohasebe/whisper-stream/archive/66c318aaab717d7906c4f54e998554c254485679.zip"
+  version "2.0.0"
+  sha256 "48974fefb0927bfe7fae09265e643fb6498bd36914938f69a9df1adbc6fa1f10"
   license "MIT"
 
   depends_on "jq"
@@ -17,6 +17,14 @@ class WhisperStream < Formula
 
   def install
     bin.install "whisper-stream"
+  end
+
+  def caveats
+    <<~EOS
+      Optional: install whisper-cpp to use the local backend (--backend local):
+        brew install whisper-cpp
+      See the project README for model setup and usage details.
+    EOS
   end
 
   test do
