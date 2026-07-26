@@ -1,9 +1,9 @@
 class WhisperStream < Formula
   desc "Bash script for real-time speech-to-text via OpenAI API or local whisper.cpp"
   homepage "https://github.com/yohasebe/whisper-stream"
-  url "https://github.com/yohasebe/whisper-stream/archive/f8afd7aa061e235e352ab2570b4fa1178ec04d6d.zip"
-  version "3.1.1"
-  sha256 "cd50a8f1c277e277ff0d4a4d8813115484da8d5f34a5a37232ccbd3e4bc5ea98"
+  url "https://github.com/yohasebe/whisper-stream/archive/e1ae659ee1a1c22a8a7ab3fd2321ff866b45752e.zip"
+  version "3.1.2"
+  sha256 "0b03c0c5300fbd9e3bb3935f042867a29cd13b95947db3480c6dc970b800050c"
   license "MIT"
 
   depends_on "jq"
